@@ -2,26 +2,18 @@
 
 A Spring Boot application built using PostgreSQL and Spring Data JPA to manage Logistics Services.
 
-## Sample Datasets
-
-- Datasets can be found [here]().
-
 ## 📜 Contents
-- [Key Features]()
-- [Video Presentation]()
-- [Project Structure]()
-- [Setup]()
-- [API Methods]()
-- [Contribution]()
+- [Key Features](https://github.com/rahulmangla28/Logistic_Service_Spring_Boot_Application#-key-features)
+- [Project Structure](https://github.com/rahulmangla28/Logistic_Service_Spring_Boot_Application#-project-structure)
+- [Setup](https://github.com/rahulmangla28/Logistic_Service_Spring_Boot_Application#-setup)
+- [API Methods](https://github.com/rahulmangla28/Logistic_Service_Spring_Boot_Application#%EF%B8%8F-api-methods-and-dependencies)
+- [Contribution](https://github.com/rahulmangla28/Logistic_Service_Spring_Boot_Application#-contribution)
 
 ## 📑 Key Features
 - **Java 21** : Leveraging the latest LTS version of Java, improving readability and efficiency.
 - **Spring Boot 3** : An upgraded version of Spring Boot, enhancing developer productivity with its auto-configuration feature. Generated using Spring Initializr.
 - **Spring Data JPA** : Simplifying the database access layer by reducing the boilerplate code.
 - **PostgreSQL Database** : Integrated with PostgreSQL advanced relational database, ensuring high data consistency and integrity.
-
-## 📹 Video Presentation
-
 
 ## 📝 Project Structure
   
@@ -54,8 +46,8 @@ A Spring Boot application built using PostgreSQL and Spring Data JPA to manage L
 ## ✍️ API Methods and Dependencies
 1. **Get Method**
     - ("/load") : Returns a list of all Logistics loads.
-    - ("/load/{loadId}") : Return a object containg information about Logistic load with `id : loadId`.
-    - ("/load/shipperId/{shipperId}") : Return a object containg information about Logistic load with `id : shipperId`.
+    - ("/load/{loadId}") : Return the Logistic details for the provided `loadId`.
+    - ("/load/shipperId/{shipperId}") : Return a list containg information about all Logistic loads with `shipperId`.
 2. **Post Method** 
     - ("/load) : Add the details of Logistic load in PostreSQL database.
 3. **Put Method**
